@@ -6,7 +6,7 @@
 .buttonsContainer {
     display: flex;
     justify-content: center;
-    height: 95px;
+    height: 105px;
     background-color: rgb(197, 235, 199);
 }
 
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 600px) {
     .buttonsContainer {
-        height: 130px;
+        height: 150px;
     }
     .buttons {
         height: 100px;
