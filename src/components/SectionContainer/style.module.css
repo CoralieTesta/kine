@@ -1,0 +1,8 @@
+.section {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 1px 0 10px 15px;
+    border-radius: 5px;
+}

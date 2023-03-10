@@ -1,0 +1,9 @@
+.subcontainer {
+    display: flex;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.data {
+    margin-left: 5px;
+}

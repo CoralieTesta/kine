@@ -1,0 +1,13 @@
+.offers {
+    justify-content: center;
+}
+
+.title {
+    text-align: left;
+    font-size: 30px;
+}
+
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+}
