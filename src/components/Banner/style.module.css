@@ -1,0 +1,40 @@
+.content {
+    height: 99%;
+    background-color: rgba(33, 32, 32, 0.7);
+    padding: 20px 0px 20px 0;
+    color: white;
+    box-shadow: 0 5px 8px rgb(86, 83, 83);
+    
+  }
+
+  .p {
+    margin-top: 60px;
+    padding-bottom: 15px;
+    font-size: 35px;
+  }
+
+  .btn {
+    background-color: white;
+    color: black;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    font-size: 25px;
+    width: fit-content;
+    max-width: 70%;
+  }
+
+  .link {
+    text-decoration: none;
+    color:black
+  }
+
+  .link:hover {
+    color: white;
+  }
+
+  .btn:hover {
+    background-color: #648c65;  
+  }

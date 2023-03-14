@@ -3,8 +3,10 @@ import { BsFacebook, BsInstagram } from "react-icons/bs"
 import s from "./style.module.css"
 import { Mail } from "../Mail/Mail"
 import { Phone } from "../Phone/Phone"
+import { useNavigate } from "react-router-dom"
 
 export function Footer() {
+    const navigate = useNavigate()
     return(
         <footer className={s.footer}>
             <div className={s.container}>
@@ -12,6 +14,7 @@ export function Footer() {
                     name="Sarah Demanez" 
                     job="Kinésithérapeute" 
                     className={s.logo}
+                    onClick={()=> navigate('/')} 
                 />
                 <div className={s.copyright}>
                     © 2023. All rights reserved.

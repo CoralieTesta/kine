@@ -3,6 +3,8 @@
     justify-content: space-between;
 }
 
+
+
 .buttonsContainer {
     display: flex;
     justify-content: center;
@@ -33,14 +35,49 @@
 }
 
 .button:hover {
-    background-color: white;
+    color: rgb(32, 121, 50);
 }
 
 .button:active {
     background-color: bisque;
 }
 
-@media screen and (max-width: 600px) {
+.buttonService {
+    border: transparent;
+    width: 140px;
+    cursor: pointer;
+    background-color: rgb(197, 235, 199);
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+}
+
+.buttonService:hover {
+    color: rgb(32, 121, 50);
+}
+
+.servicesBtns {
+    position: absolute;
+    top:55px;
+    left: -1px;
+    z-index: 9;
+}
+
+.servicesBtn {
+    border: 1px solid rgb(93, 117, 94);
+    width: 142px;
+    cursor: pointer;
+    background-color: rgb(197, 235, 199);
+    font-weight: 700;
+    font-size: 18px;
+    height: 50px;
+}
+
+.servicesBtn:hover {
+    color: rgb(32, 121, 50);
+}
+
+@media screen and (max-width: 655px) {
     .buttonsContainer {
         height: 150px;
     }
@@ -53,5 +90,19 @@
         border-radius: 5px;
         margin-right: 3px;
     }
+    .buttonService {
+        border: 1px solid black;
+        margin-top: 6px;
+        border-radius: 5px;
+        margin-right: 3px;
+    }
+    .servicesBtns {
+        top:42px;
+    }
 }
 
+@media screen and (max-width: 520px) {
+    .servicesBtns {
+        top:26px;
+    }
+}

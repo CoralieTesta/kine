@@ -1,0 +1,31 @@
+.content {
+    height: 99%;
+    background-color: rgba(33, 32, 32, 0.7);
+    padding: 1px 0px 10px 15px;
+    color: white;
+    box-shadow: 0 10px 8px rgb(86, 83, 83);
+  }
+ 
+  .textContainer {
+    color:white;
+    width: 97%;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .pPrincipal {
+    font-size: 55px;
+    margin-bottom: 90px;
+  }
+
+  .p {
+    margin-top: 40px;
+  }
+
+  @media screen and (max-width: 550px) {
+    .pPrincipal {
+        font-size: 45px;
+      }
+  }

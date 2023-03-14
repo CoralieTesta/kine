@@ -10,6 +10,10 @@
     position: relative;
 }
 
+.container:hover {
+    border: 1px solid black;
+}
+
 .logo {
     background-color: white;
     width: 55px;
