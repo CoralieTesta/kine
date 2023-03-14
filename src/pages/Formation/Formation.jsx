@@ -34,7 +34,7 @@ export function Formation() {
             <Banner
                 imgUrl={contact}
                 pText="Vous souhaitez suivre cette formation ?"
-                btnText="Je veux prendre m'inscrire"
+                btnText="Je veux m'inscrire"
                 link="/contact"
                 width="100%"
                 borderRadius="0px"
