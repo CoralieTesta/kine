@@ -1,0 +1,102 @@
+
+.nav {
+    display: flex;
+    justify-content: center;
+    height: 105px;
+    background-color: rgb(197, 235, 199);
+}
+
+.buttons {
+    margin: auto;
+    height: 75px;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0 30px 0;
+    background-color: rgb(197, 235, 199);
+    font-weight: 900;
+    flex-wrap: wrap;
+    padding-right: 25px;
+}
+
+.btn {
+    border: transparent;
+    width: 140px;
+    cursor: pointer;
+    background-color: rgb(197, 235, 199);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn:hover {
+    color: rgb(32, 121, 50);
+}
+
+.btn:active {
+    background-color: bisque;
+}
+
+.btnServices {
+    border: transparent;
+    width: 140px;
+    cursor: pointer;
+    background-color: rgb(197, 235, 199);
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+}
+
+.btnServices:hover {
+    color: rgb(32, 121, 50);
+}
+
+.subButtonsServicesContainer {
+    position: absolute;
+    top:55px;
+    left: -1px;
+    z-index: 9;
+}
+
+.subBtnServices {
+    border: 1px solid rgb(93, 117, 94);
+    width: 142px;
+    cursor: pointer;
+    background-color: rgb(197, 235, 199);
+    font-weight: 700;
+    font-size: 18px;
+    height: 50px;
+}
+
+.subBtnServices:hover {
+    color: rgb(32, 121, 50);
+}
+
+@media screen and (max-width: 655px) {
+    .nav {
+        height: 150px;
+    }
+    .buttons {
+        height: 100px;
+    }
+    .btn {
+        border: 1px solid black;
+        margin-top: 6px;
+        border-radius: 5px;
+        margin-right: 3px;
+    }
+    .btnServices {
+        border: 1px solid black;
+        margin-top: 6px;
+        border-radius: 5px;
+        margin-right: 3px;
+    }
+    .subButtonsServicesContainer {
+        top:42px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .subButtonsServicesContainer {
+        top:26px;
+    }
+}

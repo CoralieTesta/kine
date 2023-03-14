@@ -1,9 +1,9 @@
 import s from "./style.module.css"
 import { BsPatchCheckFill } from "react-icons/bs"
 
-export function ListMassage() {
+export function List() {
     return(
-        <div className={s.container}>
+        <section className={s.container}>
             <div className={s.titleContainer}>
                 <h2>Nullam nec dui in ipsum...</h2>
             </div>
@@ -37,6 +37,6 @@ export function ListMassage() {
                     </p>
                 </li>
             </ul>
-        </div>
+        </section>
     )
 }

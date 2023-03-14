@@ -43,7 +43,7 @@ export function DryNeedling() {
             />
             <Article
             title="Duis ipsum augue"
-            textP1={p1}
+            text={p1}
             src={dryNeedling2}
             alt="dry needling shoulder"
             />

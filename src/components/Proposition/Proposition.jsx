@@ -13,9 +13,9 @@ export function Proposition({title, p1, p2, p3, p4, p5, imgUrl}) {
         >
             <div className={s.content}>
                 <div className={s.textContainer}>
-                    <p className={s.pPrincipal}>
+                    <h1 className={s.h1}>
                         {title}
-                    </p>
+                    </h1>
                     <p className={s.p}>
                         {p1}
                     </p>

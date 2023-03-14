@@ -1,4 +1,4 @@
-import { Offers } from "../../components/Offers/Offers";
+import { OfferList } from "../../components/OfferList/OfferList";
 import {MdOutlineMinimize} from "react-icons/md"
 import { Article } from "../../components/Article/Article";
 import photo from "../../assets/photoDeProfil.jpg"
@@ -25,7 +25,7 @@ export function Home() {
                 link={'/contact'}
             />
             <MdOutlineMinimize size={50}/> <MdOutlineMinimize size={50}/> <MdOutlineMinimize size={50}/> <MdOutlineMinimize size={50}/> <MdOutlineMinimize size={50}/> <MdOutlineMinimize size={50}/> <MdOutlineMinimize size={50}/>
-            <Offers />
+            <OfferList />
         </div>
     )
 }

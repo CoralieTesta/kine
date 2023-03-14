@@ -5,7 +5,7 @@ import troubles from "../../assets/troubles.jpg"
 import troubles1 from "../../assets/troubles1.jpg"
 import contact1 from "../../assets/contact1.jpg"
 import { Banner } from "../../components/Banner/Banner";
-import { ListMassage } from "../../components/ListMassage/ListMassage";
+import { List } from "../../components/List/List";
 
 export function TroublesEquilibre() {
     return(
@@ -26,10 +26,10 @@ export function TroublesEquilibre() {
                 src={troubles1}
                 alt="personne assise dans le noir"
             />
-            <ListMassage />
+            <List />
             <Banner
                 imgUrl={contact1}
-                pText="Vous souhaitez prendre contact ?"
+                pText="Vous souhaitez me contacter ?"
                 btnText="Je veux prendre rendez-vous"
                 link="/contact"
                 width="100%"

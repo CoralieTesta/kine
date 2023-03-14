@@ -2,10 +2,9 @@ import { OfferItem } from "../OfferItem/OfferItem"
 import { SectionContainer } from "../SectionContainer/SectionContainer"
 import s from "./style.module.css"
 
-export function Offers() {
+export function OfferList() {
     return(
         <SectionContainer>
-            <div className={s.container}>
             <h2 className={s.title}>Ce que je propose</h2>
                 <div className={s.offers}>
                     <OfferItem 
@@ -39,7 +38,6 @@ export function Offers() {
                         link="./formation"
                     />
                 </div>
-            </div>
             </SectionContainer>
     )
 }

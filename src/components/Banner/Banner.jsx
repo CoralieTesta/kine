@@ -3,7 +3,7 @@ import s from "./style.module.css"
 
 export function Banner({imgUrl, pText, btnText, link, width, borderRadius}) {
     return(
-        <div 
+        <section 
             style={{
                 backgroundImage:`url(${imgUrl})`,
                 width: width? width : '90%',
@@ -30,6 +30,6 @@ export function Banner({imgUrl, pText, btnText, link, width, borderRadius}) {
                     </Link>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
